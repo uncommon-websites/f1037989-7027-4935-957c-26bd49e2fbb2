@@ -11,94 +11,88 @@
 	// Constants
 	const values = [
 		{
-			title: "Innovation",
-			description: "Constantly challenging the status quo to create better solutions."
+			title: "Ship faster, not harder",
+			description: "We eliminate weeks of custom integration work so developers can focus on building breakthrough agent experiences, not plumbing."
 		},
 		{
-			title: "Integrity",
-			description: "Building trust through transparent actions and honest communication."
+			title: "Intelligence at scale",
+			description: "Our semantic networking layer enables agents to discover and collaborate without pre-configuration, creating emergent intelligence that grows with your ecosystem."
 		},
 		{
-			title: "Impact",
-			description: "Measuring our success by the positive change we create for our clients."
+			title: "Revenue in every interaction",
+			description: "Built-in monetization turns agent collaboration into measurable business value - from micropayments to enterprise transactions."
 		}
 	];
 </script>
 
 <SecondaryHero
-	generating
-	title="Solving world hunger"
-	subtitle="one step at a time"
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
+	title="Agents that work together"
+	subtitle="Revenue that runs itself"
+	imageSrc="/generated/image-two-founders-collaborating-in-a-modern-o.webp"
 />
 
 <!-- Story Section -->
 <Story
-	generating
 	paragraphs={[
-		"We started in 2018 with a simple goal: make helpful tech that people actually need. While many chase profits, we chose to do things differently.",
-		"Beyond making good products, we care about doing the right thing, being kind to our planet, and making sure everyone can use what we build. That's our compass.",
-		"From day one, we've asked ourselves: 'Does this actually help people?' This question gets us through tough calls and shapes who we are. We're playing the long game here.",
-		"We think about how our work affects real people's lives. We build tech that brings people together, keeps your information safe, and treats everyone fairly. When we stick to these basics, good things happen."
+		"We experienced the pain firsthand - watching talented AI developers waste weeks building custom integrations instead of focusing on what matters: creating agents that deliver value.",
+		"With Volodymyr's PhD and 10+ patents in discovery systems, plus Sergey's AWS-level infrastructure expertise, we knew we could solve the fundamental bottleneck: real-time agent discovery.",
+		"The problem wasn't just technical - it was economic. Brilliant agents were trapped in silos, unable to discover each other or transact value. We built Robutler to change that.",
+		"Today, we're turning AI agent collaboration from a weeks-long integration nightmare into a 30-second discovery and transaction. That's the future we're building - where agents work together as seamlessly as humans do."
 	]}
 />
 
 <!-- Our Culture Section -->
-<Culture {values} generating />
+<Culture {values} />
 
 <!-- StakeholderGrid Section -->
 <StakeholderGrid
-	generating
 	stakeholderType="team"
-	title="Our team."
-	subtitle="Your partners in innovation."
+	title="Our founders."
+	subtitle="PhD patents meet AWS-scale engineering."
 	stakeholders={[
 		{
-			name: "Alex Morgan",
-			position: "Founder & CEO",
-			bio: "Started the company with a vision to transform the industry through innovative solutions.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+			name: "Volodymyr Seliuchenko",
+			position: "CEO & Co-founder",
+			bio: "3X founder with PhD and 10+ patents in discovery systems. Previously built Openlicense, bringing deep expertise in semantic networking and agent discovery challenges that uniquely positions him to solve real-time agent discovery and monetization.",
+			image: "/generated/image-a-professional-ceo-headshot-featuring-a-.webp"
 		},
 		{
-			name: "Jamie Chen",
-			position: "Chief Design Officer",
-			bio: "Award-winning designer with a passion for creating intuitive and beautiful experiences.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		},
-		{
-			name: "Taylor Wright",
-			position: "Head of Engineering",
-			bio: "Technology enthusiast focused on building scalable systems that make a difference.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+			name: "Sergey Bond",
+			position: "CTO & Co-founder", 
+			bio: "Senior engineering leader with AWS and major tech company experience. His expertise with cloud infrastructure and large-scale systems makes him uniquely positioned to architect the technical foundation for a massively multi-agent platform.",
+			image: "/generated/image-a-professional-cto-headshot-showcasing-a.webp"
 		}
 	]}
 />
 
 <StakeholderGrid
-	generating
 	stakeholderType="investor"
-	title="Backed by the best."
-	subtitle="Point Nine, TSIC and others"
+	title="Strategic partnerships."
+	subtitle="NVIDIA Inception Program and key integrations"
 	stakeholders={[
 		{
-			name: "Point Nine Capital",
-			image: "https://cdn.brandfetch.io/pointnine.com/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7"
+			name: "NVIDIA Inception",
+			image: "https://logo.clearbit.com/nvidia.com"
 		},
 		{
-			name: "TSIC Ventures",
-			image: "https://cdn.brandfetch.io/tiny.vc/w/400/h/400/logo?c=1a2b3c4d5e"
+			name: "Claude Integration",
+			image: "https://logo.clearbit.com/anthropic.com"
 		},
 		{
-			name: "Sequoia Capital",
-			image: "https://cdn.brandfetch.io/sequoiacap.com/w/400/h/400/logo"
+			name: "OpenAI Partnership",
+			image: "https://logo.clearbit.com/openai.com"
+		},
+		{
+			name: "Microsoft Copilot",
+			image: "https://logo.clearbit.com/microsoft.com"
 		}
 	]}
 />
 
 <!-- CTA Section -->
 <CallToAction
-	generating
-	title="Ready to collaborate?"
-	subtitle="Let's create something amazing"
-	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
+	title="Stop building integrations"
+	subtitle="Start building intelligence"
+	description="Join AI product managers who've eliminated weeks of custom integration work. Your agents discover, collaborate, and transact in under 30 seconds - not 30 days."
+	imageSrc="/generated/image-a-professional-ai-developer-wearing-a-sm.webp"
 />

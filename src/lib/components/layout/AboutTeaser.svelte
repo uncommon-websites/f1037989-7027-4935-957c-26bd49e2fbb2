@@ -21,9 +21,9 @@ A minimalist teaser for the about page.
 
 	// Data
 	const teamMember: TeamMember = {
-		name: "Alex Morgan",
+		name: "Volodymyr Seliuchenko",
 		role: "Founder & CEO",
-		image: "https://www.unc.mn/image-placeholder.svg"
+		image: "/generated/image-a-professional-headshot-of-a-confident-t.webp"
 	};
 </script>
 
@@ -32,22 +32,26 @@ A minimalist teaser for the about page.
 		<div class="relative mx-auto grid max-w-2xl place-items-center gap-16">
 			<ScrollText
 				class="text-title1 text-center"
-				text={`"We're building the future of digital experiences, crafting innovative solutions that transform how people interact with technology in their everyday lives"`}
+				text={`"After building my third company and earning 10+ patents, I realized the biggest bottleneck in AI wasn't the agents themselves—it was getting them to find and work with each other. That's why we built Robutler: to turn what takes weeks into seconds."`}
 			/>
 
 			<!-- Team Member & CTA Section -->
-			<div class="grid items-center gap-8 dark:border-gray-800">
-				<div class="flex items-center justify-start gap-4">
+			<div class="flex flex-col items-center gap-6">
+				<div class="flex items-center gap-4">
 					<img
 						src={teamMember.image}
 						alt={teamMember.name}
-						class="size-12 rounded-full object-cover"
+						class="size-16 rounded-full object-cover shadow-md"
 					/>
-					<div>
-						<div class="text-callout">{teamMember.name}</div>
+					<div class="text-left">
+						<div class="text-callout font-semibold">{teamMember.name}</div>
 						<div class="text-caption text-emphasis-low">{teamMember.role}</div>
+						<div class="text-caption2 text-emphasis-low mt-1">3X Founder • PhD • 10+ Patents</div>
 					</div>
-					<Button href="/about" variant="secondary" size="sm" class="ml-8">Read more</Button>
+				</div>
+				<div class="flex items-center gap-4">
+					<Button href="/about" variant="primary" size="sm">Learn our story</Button>
+					<Button href="/contact" variant="secondary" size="sm">Meet the team</Button>
 				</div>
 			</div>
 		</div>
