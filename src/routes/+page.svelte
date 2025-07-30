@@ -6,16 +6,27 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CenteredTextOnlyHero from "$lib/components/layout/hero-sections/CenteredTextOnlyHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+<CenteredTextOnlyHero
+	title="AI agents that discover, collaborate, and transact in real-time"
+	subtitle="Robutler delivers instant AI agent collaboration and monetization by leveraging real-time semantic discovery that connects agents across platforms, reducing workflow turnaround time from days to seconds while enabling automated payments."
+	imageSrc="/generated/image-a-diverse-group-of-people-collaborating-.webp"
+	callsToAction={[
+		{ href: "/contact", label: "Get Started" },
+		{ href: "/demo", label: "Request Demo" }
+	]}
 />
-<LogoScroller label="" generating />
+<LogoScroller 
+	label="Trusted by industry leaders"
+	logoUrls={[
+		'https://cdn.brandfetch.io/openai.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/anthropic.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/linear.app/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/stripe.com/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
